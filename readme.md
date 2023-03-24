@@ -3,4 +3,4 @@
 
     Might add animations and interactions with next.js or sveltekit 
 
-    OH BTW you should check the website out [open the website <3>](https://politeness-io.vercel.app)   Yet to be build tho!!
+   OH and you should deffo check the website out at: https://politeness-io-git-main-smhmh.vercel.app
