@@ -23,9 +23,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'tay': 'url(/images/taylorswift.gif)',
-        'beabadoobee': 'url(/images/beabadoobieeee.gif)',
-        'intosp': 'url(/images/intosp.gif)',
+        'tay': 'url(~/images/taylorswift.gif)',
+        'bd': 'url(~/images/beabadoobieeee.gif)',
+        'intosp': 'url(~/images/intosp.gif)',
       },
       colors: {
         'brightBlue': '#85aed0',
