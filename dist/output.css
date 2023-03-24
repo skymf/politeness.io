@@ -646,11 +646,11 @@ video {
 }
 
 .bg-bd{
-  background-image: url(~/images/beabadoobieeee.gif);
+  background-image: url(/images/beabadoobieeee.gif);
 }
 
 .bg-tay{
-  background-image: url(~/images/taylorswift.gif);
+  background-image: url(/images/taylorswift.gif);
 }
 
 .bg-cover{
