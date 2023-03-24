@@ -3,4 +3,4 @@
 
     Might add animations and interactions with next.js or sveltekit 
 
-    
+    OH BTW you should check the website out [](my lovely website <3>)
