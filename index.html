@@ -9,7 +9,7 @@
 </head>
 <body>
   <!-- nav in flex container -->
-  <nav class="relative container mx-auto">
+  <nav class="relative container mx-auto p-6">
     <div class="flex items-center justify-between">
       <!-- nav image -->
       <div class="h-20 w-20">
@@ -17,7 +17,7 @@
       </div>
   
       <!-- nav bar links-->
-      <div class="hidden space-x-20 text-black font-bold font-poppins md:flex">
+      <div class="hidden space-x-20 font-bold text-black md:flex">
         <a href="#" class="hover:text-brightBlueDarkest">sn13</a>
         <a href="#" class="hover:text-brightBlueDarkest">epiphany</a>
         <a href="#" class="hover:text-brightBlueDarkest">artists</a>
@@ -25,21 +25,21 @@
       </div>
   
       <!-- button -->
-      <a href="#" class="hidden p-3 px-4 text-white font-bold font-poppins bg-brightBlueDark rounded-full baseline hover:bg-brightBlueDarker md:block">other (..)</a>
+      <a href="#" class="hidden p-3 px-4 text-white font-bold bg-brightBlueDark rounded-full baseline hover:bg-brightBlueDarker md:block">other (..)</a>
     <!-- animated icon the hamburger icon duh-->
   <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
     <span class="hamburger-top"></span>
     <span class="hamburger-middle"></span>
-    <span class="hamburger-top"></span>
+    <span class="hamburger-bottom"></span>
   </button>
     </div>
     <!-- mobile menu-->
     <div class="md:hidden">
-      <div class="absolute flex flex-col items-center hidden self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:width-auto sm:self-center left-6 right-6 drop-shadow-md">
-        <a href="#">sn13</a>
-        <a href="#">epiphany</a>
-        <a href="#">artists</a>
-        <a href="#">other info</a>
+      <div id="menu" class="absolute flex-col items-center hidden self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:width-auto sm:self-center rounded-lg  left-6 right-6 drop-shadow-md">
+        <a href="#" class="hover:text-brightBlueDarkest">sn13</a>
+        <a href="#" class="hover:text-brightBlueDarkest">epiphany</a>
+        <a href="#" class="hover:text-brightBlueDarkest">artists</a>
+        <a href="#" class="hover:text-brightBlueDarkest">other info</a>
       </div>
     </div>
   </nav>
@@ -52,12 +52,12 @@
       <!-- container flex-->
       <div class="container mx-auto flex flex-col justify-end h-full">
         <!-- heading text above bg image -->
-        <h1 class="flex p-20 px-4 text-left text-4xl text-white font-bold font-poppins md:text-5xl">
+        <h1 class="flex p-20 px-4 text-left text-4xl text-white font-bold md:text-5xl">
           I want to brainwash you, <br> into loving me forever...
         </h1>
         <!-- credits !!-->
         <figcaption>
-        <p class="text-white font-poppins md:p-8 absolute bottom-0 left-0">
+        <p class="text-white md:p-8 absolute bottom-0 left-0 md:text-1xl">
           Taylor Swift in lavender haze
         </p>
       </figcaption>
@@ -71,7 +71,7 @@
     <div class="container flex flex-col-reverse items-top py-10 mx-auto space-y-0 md:space-y-0 md:flex-row">
         <div class="flex flex-col mb-32 space-y-8 md:w-1/2">
             <!-- title-->
-            <h1 class="max-w-md text-4xl font-poppins font-bold text-center md:text-5xl md:text-left">
+            <h1 class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left">
                 Hey!!
             </h1>
             <!-- paragraph info-->
@@ -93,15 +93,15 @@
 
 <section id="other"> 
   <!-- beabadoobieeee-->
-  <div class="min-h-screen bg-bd bg-fixed bg-no-repeat bg-cover bg-center relative">
+  <div class="min-h-screen bg-bd bg-fixed bg-no-repeat bg-cover bg-center">
     <!-- flex container -->
     <div class="container mx-auto flex justify-end h-full">
       <!-- heading of beabadooobieee-->
-      <h1 class="flex p-20 px-4 text-5xl text-white font-bold font-poppins md:text-5xl">
+      <h1 class="flex p-20 px-4 text-5xl text-white font-bold md:text-5xl">
         beabadoobieeee
       </h1>
       <!-- credits to (..) with link !!-->
-      <p class="text-white font-poppins md:p-8 absolute bottom-0 left-0">
+      <p class="text-white md:p-8 absolute bottom-0 left-0">
         <a href="#"> beabadoobieeee edit by (..) </a>
       </p>
     </div>
@@ -117,7 +117,7 @@
         <h2 class="max-w-md text-4xl font-bold font-poppins text-center md:text-left">
           Look at this !!
         </h2>
-        <p class="max-sm text-center font-poppins text-zinc-600 md:text-left">
+        <p class="max-sm text-center text-zinc-600 md:text-left">
           Other text
         </p>
       </div>
@@ -157,10 +157,10 @@
           </div>
         </div>
         <div>
-          <h3 class="hidden mb-4 text-lg font-bold font-poppins md:block">
+          <h3 class="hidden mb-4 text-lg font-bold md:block">
             Hypophrenia
           </h3>
-          <p class="text-zinc-600 font-poppins">
+          <p class="text-zinc-600">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam adipisci omnis minus dolore voluptatum explicabo assumenda enim aperiam hic at aliquid cupiditate consequatur doloremque mollitia sint beatae, molestias id consequuntur. 
           </p>
         </div>
@@ -178,10 +178,10 @@
         </div>
       </div>
       <div>
-        <h3 class="hidden mb-4 text-lg font-bold font-poppins md:block">
+        <h3 class="hidden mb-4 text-lg font-bold md:block">
           coding -> xcode
         </h3>
-        <p class="text-zinc-600 font-poppins">
+        <p class="text-zinc-600">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quibusdam in architecto dolorum beatae, sequi, veniam exercitationem quos illum quidem iure optio facere reiciendis maxime commodi minus soluta accusamus tempore.
         </p>  
       </div>
@@ -190,5 +190,8 @@
   </section>
 
 
+
+  <!-- JAVA SCRIPTS-->
+  <script src="menu.js"></script>
 </body>
 </html>
