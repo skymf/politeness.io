@@ -1,54 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="garden">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="/dist/output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.5/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>swiftay !!</title>
 </head>
-<body>
-     <!-- nav in flex container -->
-  <nav class="relative mx-auto p-3">
-    <div class="flex items-center justify-between">
-      <!-- nav image -->
-      <div class="h-20 w-20">
-        <a href="index.html"><img src="/images/86e89ccce05efb958c77ef2301ea1f54.jpg" alt="no"/></a>
-      </div>
-  
-      <!-- nav bar links-->
-      <div class="hidden space-x-20 font-bold text-black md:flex">
-        <a href="/html/taylorxbea.html" class="hover:text-brightBlueDarkest">sn13</a>
-        <a href="#" class="hover:text-brightBlueDarkest">epiphany</a>
-        <a href="#" class="hover:text-brightBlueDarkest">artists</a>
-        <a href="#" class="hover:text-brightBlueDarkest">other info</a>
-      </div>
-    <!-- animated icon the hamburger icon duh-->
-  <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
-    <span class="hamburger-top"></span>
-    <span class="hamburger-middle"></span>
-    <span class="hamburger-bottom"></span>
-  </button>
+ <!-- nav in flex container -->
+ <nav class="relative mx-auto p-3">
+  <div class="flex items-center justify-between">
+    <!-- nav image -->
+    <div class="h-20 w-20">
+      <a href="index.html"><img src="/images/86e89ccce05efb958c77ef2301ea1f54.jpg" alt="no"/></a>
     </div>
-    <!-- mobile menu-->
-    <div class="md:hidden">
-      <div id="menu" class="absolute flex-col items-center hidden self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:width-auto sm:self-center rounded-lg  left-6 right-6 drop-shadow-md">
-        <a href="#" class="hover:text-brightBlueDarkest">sn13</a>
-        <a href="#" class="hover:text-brightBlueDarkest">epiphany</a>
-        <a href="#" class="hover:text-brightBlueDarkest">artists</a>
-        <a href="#" class="hover:text-brightBlueDarkest">other info</a>
-      </div>
-    </div>
-  </nav>
 
+    <!-- nav bar links-->
+    <div class="hidden space-x-20 font-bold text-black md:flex">
+      <a href="/html/taylorxbea.html" class="hover:text-brightBlueDarkest">sn13</a>
+      <a href="/html/epiphany.html" class="hover:text-brightBlueDarkest">epiphany</a>
+      <a href="/html/hypophrenia.html" class="hover:text-brightBlueDarkest">artists</a>
+      <a href="/html/pretty.html" class="hover:text-brightBlueDarkest">other info</a>
+    </div>
+  <!-- animated icon the hamburger icon duh-->
+<button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+  <span class="hamburger-top"></span>
+  <span class="hamburger-middle"></span>
+  <span class="hamburger-bottom"></span>
+</button>
+  </div>
+  <!-- mobile menu-->
+  <div class="md:hidden">
+    <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:width-auto sm:self-center rounded-lg left-6 right-6 drop-shadow-md">
+      <a href="/html/taylorxbea.html" class="hover:text-brightBlueDarkest font-poppins">sn13</a>
+      <a href="/html/epiphany.html" class="hover:text-brightBlueDarkest">epiphany</a>
+      <a href="/html/hypophrenia.html" class="hover:text-brightBlueDarkest">artists</a>
+      <a href="/html/pretty.html" class="hover:text-brightBlueDarkest">other info</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- body section -->
+<body>
   <section id="hero_info">
     <div class="flex flex-col items-center justify-center">
-        <h1 class="text-4xl font-bold">
+      <!-- header info -->
+        <h1 class="text-4xl font-poppins font-bold md:self-center">
          Featuring Taylor Swift and beabadoobieeee !!
         </h1>
-    </div>
+    </section>
+<!-- button section-->
+<section id="otheraddinfo">
+        <div class="card w-96 bg-base-100 shadow-xl image-full">
+          <figure><img src="/images/2ffbac857a6b1207867d7ed426a421ef.jpg" alt="artistic" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">what?!</h2>
+            <p>heyy i dont know what to say so yes here !!
+            </p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">see more</button>
+            </div>
+          </div>
+        </div>
+</section>
+  
 
-  </section>
+  <script src="/js/menu.js"></script>
 </body>
 </html>
