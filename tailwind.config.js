@@ -26,6 +26,7 @@ module.exports = {
         'tay': 'url(/images/taylorswift.gif)',
         'bd': 'url(/images/beabadoobieeee.gif)',
         'intosp': 'url(/images/intosp.gif)',
+        'by': 'url(/images/ly.gif)',
       },
       colors: {
         'brightBlue': '#85aed0',
